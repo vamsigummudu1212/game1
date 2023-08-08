@@ -1,0 +1,39 @@
+.container{
+    text-align:center;
+    font-size: larger;
+    margin-top:150px;
+    
+
+    
+}
+body{
+    background-image: url(88.jpg);
+    background-size:cover;
+    color: #bb2d8b;
+}
+#btn{
+    border-radius: 20%;
+    padding:3px
+}
+#btn {
+   
+    color: rgb(44, 190, 163);
+    border-style: outset;
+    border-color: #529cc8;
+    height: 22px;
+    width: 60px;
+    font: bold 12px arial, sans-serif;
+    text-shadow: none;
+    box-shadow: 0px 0px 5px #a38dd7;
+}
+#btn:hover{
+    background-image:linear-gradient(to bottom right, rgb(94, 98, 173), rgb(166, 85, 172)); ;
+}
+.container input[type=number]{
+    background-color:rgb(70, 98, 168);
+    box-shadow: 0px 0px 5px #150762;
+}
+.container input[type=number]:hover{
+    background-color:rgb(119, 125, 172);
+    box-shadow: 0px 0px 5px #591286;
+}
